@@ -13,5 +13,6 @@ public class testNGProg {
 	public void CloseBrowser()
 	{
 		System.out.println("The test fails");
+		System.out.println("I added this");
 	}
 }
