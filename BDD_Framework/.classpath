@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
+	<classpathentry kind="lib" path="/Users/rajeshkumar/Desktop/Rajesh/Selenium_Jars_and_Drivers/Jar_Files/cobertura-2.1.1.jar"/>
+	<classpathentry kind="lib" path="/Users/rajeshkumar/Desktop/Rajesh/Selenium_Jars_and_Drivers/Jar_Files/cucumber-core-1.1.2.jar"/>
+	<classpathentry kind="lib" path="/Users/rajeshkumar/Desktop/Rajesh/Selenium_Jars_and_Drivers/Jar_Files/cucumber-java-1.1.2.jar"/>
+	<classpathentry kind="lib" path="/Users/rajeshkumar/Desktop/Rajesh/Selenium_Jars_and_Drivers/Jar_Files/cucumber-junit-1.1.2.jar"/>
+	<classpathentry kind="lib" path="/Users/rajeshkumar/Desktop/Rajesh/Selenium_Jars_and_Drivers/Jar_Files/cucumber-jvm-deps-1.0.3.jar"/>
+	<classpathentry kind="lib" path="/Users/rajeshkumar/Desktop/Rajesh/Selenium_Jars_and_Drivers/Jar_Files/cucumber-reporting-0.1.0.jar"/>
+	<classpathentry kind="lib" path="/Users/rajeshkumar/Desktop/Rajesh/Selenium_Jars_and_Drivers/Jar_Files/gherkin-2.12.1.jar"/>
+	<classpathentry kind="lib" path="/Users/rajeshkumar/Desktop/Rajesh/Selenium_Jars_and_Drivers/Jar_Files/junit-4.11.jar"/>
+	<classpathentry kind="lib" path="/Users/rajeshkumar/Desktop/Rajesh/Selenium_Jars_and_Drivers/Jar_Files/mockito-all-2.0.2-beta.jar"/>
+	<classpathentry kind="lib" path="/Users/rajeshkumar/Desktop/Rajesh/Selenium_Jars_and_Drivers/Jar_Files/selenium-java-3.5.3.zip"/>
+	<classpathentry kind="lib" path="/Users/rajeshkumar/Desktop/Rajesh/Selenium_Jars_and_Drivers/Jar_Files/selenium-server-standalone-3.5.3.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
