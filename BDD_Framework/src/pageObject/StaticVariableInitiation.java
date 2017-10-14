@@ -31,4 +31,10 @@ public class StaticVariableInitiation {
 		String websiteurl=pro.getProperty("URL");
 		return websiteurl;
 	}
+	
+	public static String LoadChrome()
+	{
+		String chromepath=pro.getProperty("ChromeDriverPath");
+		return chromepath;
+	}
 }

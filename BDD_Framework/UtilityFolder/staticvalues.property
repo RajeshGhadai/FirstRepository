@@ -2,3 +2,4 @@ URL=https://www.facebook.com
 
 FirefoxDriverPath=/Users/rajeshkumar/Desktop/Rajesh/Selenium_Jars_and_Drivers/Drivers/geckodriver
 
+ChromeDriverPath=/Users/rajeshkumar/Desktop/Rajesh/Selenium_Jars_and_Drivers/Drivers/chromedriver
