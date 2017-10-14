@@ -10,4 +10,14 @@ Feature: Test the facebook application for login
       | Rajesh   | pass1    |
       | Rupesh   | pass2    |
       | Barnali  | pass3    |
+      
+   Scenario Outline: Test the login in Chrome Driver
+   	Given I am a valid chrome user
+   	When I enter "<cusername>" and "<cpassword>"
+   	Then I should get the home page
    
+   Examples: 
+      | cusername | cpassword |
+      | Rajesh1   | pass11    |
+      | Monika2   | pass22    |
+      | Barnali3  | pass33    |
