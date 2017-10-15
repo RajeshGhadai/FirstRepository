@@ -1,11 +1,9 @@
 package step_Definition;
 
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.PageFactory;
-
 import pageObject.FacebookLoginPage;
 import pageObject.StaticVariableInitiation;
 import cucumber.api.java.en.*;
@@ -56,6 +54,35 @@ public class StepDefinition {
 	public void I_should_get_the_home_page() throws Throwable {
 	   driver.quit();
 	}
+	@Given("^I am a valid MMT user$")
+	public void I_am_a_valid_MMT_user() throws Throwable {
+	 System.out.println("I am a valid user");   
+	}
+
+	@When("^I enter my MMT username and password$")
+	public void I_enter_my_MMT_username_and_password() throws Throwable {
+	   System.out.println("I entered username and password");
+	}
+
+	@Then("^The MMT home page should display$")
+	public void The_MMT_home_page_should_display() throws Throwable {
+		System.out.println("The home page is displayed");
+	}
 
 
+	@Given("^I am a valid goibibo user$")
+	public void I_am_a_valid_goibibo_user() throws Throwable {
+		System.out.println("I am a valid user");
+	}
+
+	@When("^I enter my GoIBibo username and password$")
+	public void I_enter_my_GoIBibo_username_and_password() throws Throwable {
+		System.out.println("I logged in");
+	}
+
+	@Then("^The goibibo home page should display$")
+	public void The_goibibo_home_page_should_display() throws Throwable {
+		System.out.println("The test passed");
+		//*[@id="hp-widget__depart"]
+	}
 }

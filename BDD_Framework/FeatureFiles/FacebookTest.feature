@@ -1,3 +1,4 @@
+@TestFB
 Feature: Test the facebook application for login
 
   Scenario Outline: Test the login with valid credentials
